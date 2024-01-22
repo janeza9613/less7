@@ -1,0 +1,29 @@
+.box1{
+    width: 100px;
+    height: 60px;
+    background-color: aqua;
+}
+.box2{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(0, 8, 255);
+}
+.box3{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(234, 134, 19);
+}
+.box4{
+    width: 100px;
+    height: 60px;
+    background-color: rgb(68, 255, 0);
+}
+.div-wraper{
+    display: flex;
+    justify-content: space-evenly;    
+}
+.div-wraper div:hover{
+    transform: scale(3);
+    
+    height: 200px;
+}
